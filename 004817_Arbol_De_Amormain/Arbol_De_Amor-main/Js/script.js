@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Hola mi chula.\n\nEspero algun dia te de curiosidad y entres al link, solo quiero decirte que contigo se va mi alma, se van mis ganas y se va mi corazon, yo siempre pense que el amor mas grande iba ser el de mi muñeca pero me demostraste que contigo fue era diferente me enseñaste a aprender a amar, me enseñaste que el amor es algo tan especial, me enseñaste a que el amor duele pero siempre esta, gracias por ser el amor de mi vida, te esperare para volver a sentir el calor de tus brazos y volver a sentir tus labios, volverme a sentir amado, volverme a sentir vivo, te amo mis ojitos lindos te amo. . \n\nTe amo mucho y no dejare de hacerlo, que dios nos vuelva a juntar y nuestra historia no haya acabado aqui, hasta el futuro mi amor.`;  } else {
+    text = `Hola mi chula.\n\nFeliz aniversario mi amor, otro mes mas que aunque hemos tenido muchos problemas espero esta vez ya no, gracias por elegirme siempre y gracias por ser tu, te amo con mi alma. . \n\nTe amo mucho y no dejare de hacerlo.`;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
