@@ -69,8 +69,8 @@ function getURLParam(name) {
 
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
-  if (!text) {
-    text = `Hola, vida mia.\n\nSolo veo que pasa el tiempo y sigo enamorado de ti, eres mi estrella mas brillante y mi viento que mas aire me da, gracias por seguir haciendome feliz como la primera vez, por darme esos abrazos y esas mordidas que duelen a veces jaja, aun asi, no las cambiaria por nada. . \n\nTe amo tanto vida mia;  } else {
+  if (!text) { text = `Hola, vida mia.\n\nSolo veo que pasa el tiempo y sigo enamorado de ti, eres mi estrella mas brillante y mi viento que mas aire me da, gracias por seguir haciendome feliz como la primera vez, por darme esos abrazos y esas mordidas que duelen a veces jaja, aun asi, no las cambiaria por nada. \n\nTe amo vida mia.`;  } else {
+    text = decodeURIComponent(text).replace(/\\n/g, '\n');{
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
