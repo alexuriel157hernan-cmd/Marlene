@@ -70,7 +70,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-    text = `Hola mi chula.\n\nFeliz aniversario mi amor, otro mes mas que aunque hemos tenido muchos problemas espero esta vez ya no, gracias por elegirme siempre y gracias por ser tu, te amo con mi alma. . \n\nTe amo mucho y no dejare de hacerlo.`;  } else {
+    text = `Hola, vida mia.\n\nSolo veo que pasa el tiempo y sigo enamorado de ti, eres mi estrella mas brillante y mi viento que mas aire me da, gracias por seguir haciendome feliz como la primera vez, por darme esos abrazos y esas mordidas que duelen a veces jaja, aun asi, no las cambiaria por nada. . \n\nTe amo tanto vida mia;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
